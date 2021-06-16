@@ -39,7 +39,7 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {ProjectsDemo.map(project) => (
+      {ProjectsDemo.map((project) => (
         <div>
           {project.title}
           <br />
