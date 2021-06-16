@@ -20,17 +20,17 @@ import {
 } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-const ProjectsDemo = 
-  [
-    {
-      title: 'Project 1',
-      description: 'Majje wale project'
-    },
-    {
-      title: 'Project 1',
-      description: 'Majje wale project'
-    },
-  ];
+// const ProjectsDemo = 
+//   [
+//     {
+//       title: 'Project 1',
+//       description: 'Majje wale project'
+//     },
+//     {
+//       title: 'Project 1',
+//       description: 'Majje wale project'
+//     },
+//   ];
 
 
 
@@ -39,12 +39,15 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {ProjectsDemo.map((project) => (
-        <div>
-          {project.title}
-          <br />
-          {project.description}
-        </div>
+      {projects.map(( {id, image, title, description, tags, source, visit }) => (
+        <BlogCard key={id}>
+          <Img src={image} />
+          <TitleContent>
+            <HeaderThree title>{title}</HeaderThree>
+            <Hr />
+          </TitleContent>
+          <CardInfo>{description}</CardInfo>
+        </BlogCard>
       ))}
     </GridContainer>
   </Section>
