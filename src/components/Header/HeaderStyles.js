@@ -19,10 +19,10 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span`
-font-size: 36px;
+font-size: 26px;
 font-weight: bold;
 margin-left: 10px;
-margin-top: 5px;
+margin-top: 10px;
 
 `;
 export const Div1 = styled.div`
