@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
-
+import { GiMineralHeart } from 'react-icons/gi';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
@@ -9,17 +9,13 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
       <LinkColumn>
-      <LinkTitle>Call</LinkTitle>
-      <LinkItem href="tell:+91-7761888542">+91-7761888542</LinkItem>
-      </LinkColumn>
-      <LinkColumn>
       <LinkTitle>Email</LinkTitle>
       <LinkItem href="thakurmayank0508@gmail.com">thakurmayank0508@gmail.com</LinkItem>
       </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Made with HATE 👿</Slogan>
+          <Slogan>Made by <GiMineralHeart size ="3rem"/> with Mayank</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href ="http://github.com">
