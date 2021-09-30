@@ -8,25 +8,18 @@ const Technologies = () =>  (
   <SectionDivider />
   <br />
   <SectionTitle> Technologies</SectionTitle>
-    <SectionText> Hi BABY</SectionText>
+    <SectionText>Some of my skills</SectionText>
     <List>
       <ListItem>
         <DiReact size="5rem" />
         <ListContainer>
           <ListTitle>Front End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiFirebase size="5rem" />
-        <ListContainer>
-          <ListTitle>Back End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node.js 
+            Experience with: <br />
+            HTML <br/>
+            CSS <br/>
+            JavaScript <br/>
+            React.js <br/>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -36,7 +29,8 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Figma
+            Figma <br/>
+            Adobe Photoshop <br/>
           </ListParagraph>
         </ListContainer>
       </ListItem>

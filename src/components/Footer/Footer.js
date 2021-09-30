@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai';
 import { GiMineralHeart } from 'react-icons/gi';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -15,19 +15,19 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Made by <GiMineralHeart size ="3rem"/> with Mayank</Slogan>
+          <Slogan>Made with <GiMineralHeart size ="3rem"/> by Mayank</Slogan>
         </CompanyContainer>
         <SocialContainer>
-        <SocialIcons href ="http://github.com">
+        <SocialIcons href ="http://github.com/mayank0508">
           <AiFillGithub size ="3rem" />
         </SocialIcons>
-        <SocialIcons href ="http://instagram.com">
-          <AiFillInstagram size ="3rem" />
+        <SocialIcons href ="https://www.youtube.com/channel/UCEaFjrm2tc1Rsh3zN4XDE-w/featured">
+          <AiFillYoutube size ="3rem" />
         </SocialIcons>
-        <SocialIcons href ="http://linkedin.com">
+        <SocialIcons href ="http://linkedin.com/in/mayankkumar05/">
           <AiFillLinkedin size ="3rem" />
         </SocialIcons>
-        <SocialIcons href ="http://twitter.com">
+        <SocialIcons href ="http://twitter.com/MayankThakurrr">
           <AiFillTwitterCircle size ="3rem" />
         </SocialIcons>
         </SocialContainer>

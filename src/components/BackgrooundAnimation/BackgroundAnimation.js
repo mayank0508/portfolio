@@ -8,7 +8,7 @@ const BackgroundAnimation = () => (
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g opacity="0.15">
+      <g opacity="0.5">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -288,8 +288,8 @@ const BackgroundAnimation = () => (
           y2="129.989"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#F46737" />
-          <stop offset="1" stopColor="#F46737" stopOpacity="0" />
+          <stop stopColor="#F46" />
+          <stop offset="1" stopColor="#F46" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint6_linear"
