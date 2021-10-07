@@ -21,7 +21,7 @@ const Hero = props => (
       </SectionTitle>
       <SectionText>
         {' '}
-        I'm a Electronics and Communication Engineering Undergraduate from{' '}
+        I'm an Electronics and Communication Engineering Undergraduate from{' '}
         <a href="https://www.srmist.edu.in/" target="_blank">
           SRMIST
         </a>
